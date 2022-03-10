@@ -1,10 +1,3 @@
-terraform apply plan.out
-terraform plan -out=plan.out
-
-
-create github repo - a brand new and empty
-
-
 # My awesome TF module
 
 this is just an example module
@@ -20,6 +13,14 @@ module "my_ec2_instance" {
   ec2_ami_id = <ami id>
 }
 ~~~
+
+### My notes
+
+terraform apply plan.out
+
+terraform plan -out=plan.out
+
+create github repo - a brand new and empty
 
 push new_module folder files into clonned folder
 
