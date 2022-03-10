@@ -9,7 +9,6 @@ module "my_ec2_instance" {
   #source = "./new_module"
   ec2_instance_type = "t2.micro"
   ec2_instance_name = "Demo Instance"
-  number_of_instances = 1
   ec2_ami_id = <ami id>
 }
 ~~~
