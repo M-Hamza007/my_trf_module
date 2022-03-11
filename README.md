@@ -3,6 +3,7 @@
 This is just an example module for practice.
 
 ## Sample usage
+Sample usage:
 ~~~
 module "my_ec2_instance" {
   source = "github repo link"
